@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-28T18:59:17 IST" name="Suite" finished-at="2026-01-28T18:59:50 IST" duration-ms="32900">
+  <suite started-at="2026-01-28T19:12:47 IST" name="Default suite" finished-at="2026-01-28T19:13:17 IST" duration-ms="30336">
     <groups>
     </groups>
-    <test started-at="2026-01-28T18:59:17 IST" name="Test" finished-at="2026-01-28T18:59:50 IST" duration-ms="32900">
+    <test started-at="2026-01-28T19:12:47 IST" name="Default test" finished-at="2026-01-28T19:13:17 IST" duration-ms="30336">
       <class name="org.automation.qa.LoginTest">
-        <test-method is-config="true" signature="suite()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:16 IST" name="suite" finished-at="2026-01-28T18:59:17 IST" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:46 IST" name="suiteSetup" finished-at="2026-01-28T19:12:47 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- suite -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:17 IST" name="setup" finished-at="2026-01-28T18:59:21 IST" duration-ms="3832" status="PASS">
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:47 IST" name="setup" finished-at="2026-01-28T19:12:51 IST" duration-ms="4281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EDT003_BlankFeilds()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:21 IST" name="EDT003_BlankFeilds" finished-at="2026-01-28T18:59:21 IST" duration-ms="534" status="PASS">
+        <test-method signature="EDT003_BlankFeilds()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:51 IST" name="EDT003_BlankFeilds" finished-at="2026-01-28T19:12:51 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EDT003_BlankFeilds -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:21 IST" name="tearDown" finished-at="2026-01-28T18:59:22 IST" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:51 IST" name="tearDown" finished-at="2026-01-28T19:12:52 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:22 IST" name="setup" finished-at="2026-01-28T18:59:25 IST" duration-ms="3075" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:52 IST" name="setup" finished-at="2026-01-28T19:12:54 IST" duration-ms="2415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EDT004_SpecialCharacter()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:25 IST" name="EDT004_SpecialCharacter" finished-at="2026-01-28T18:59:26 IST" duration-ms="754" status="PASS">
+        <test-method signature="EDT004_SpecialCharacter()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:54 IST" name="EDT004_SpecialCharacter" finished-at="2026-01-28T19:12:55 IST" duration-ms="578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EDT004_SpecialCharacter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:26 IST" name="tearDown" finished-at="2026-01-28T18:59:27 IST" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:55 IST" name="tearDown" finished-at="2026-01-28T19:12:55 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:27 IST" name="setup" finished-at="2026-01-28T18:59:30 IST" duration-ms="3022" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:55 IST" name="setup" finished-at="2026-01-28T19:12:58 IST" duration-ms="2501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EDT005_LongCharacter()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:30 IST" name="EDT005_LongCharacter" finished-at="2026-01-28T18:59:31 IST" duration-ms="704" status="PASS">
+        <test-method signature="EDT005_LongCharacter()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:58 IST" name="EDT005_LongCharacter" finished-at="2026-01-28T19:12:58 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EDT005_LongCharacter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:31 IST" name="tearDown" finished-at="2026-01-28T18:59:31 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:58 IST" name="tearDown" finished-at="2026-01-28T19:12:59 IST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:31 IST" name="setup" finished-at="2026-01-28T18:59:34 IST" duration-ms="2484" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:12:59 IST" name="setup" finished-at="2026-01-28T19:13:01 IST" duration-ms="2441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FT001_Valid_Credentials()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:34 IST" name="FT001_Valid_Credentials" finished-at="2026-01-28T18:59:34 IST" duration-ms="612" status="PASS">
+        <test-method signature="FT001_Valid_Credentials()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:01 IST" name="FT001_Valid_Credentials" finished-at="2026-01-28T19:13:02 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FT001_Valid_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:34 IST" name="tearDown" finished-at="2026-01-28T18:59:35 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:02 IST" name="tearDown" finished-at="2026-01-28T19:13:02 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:35 IST" name="setup" finished-at="2026-01-28T18:59:38 IST" duration-ms="3071" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:02 IST" name="setup" finished-at="2026-01-28T19:13:05 IST" duration-ms="2520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,15 +98,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FT002_Invalid_Credentials()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:38 IST" name="FT002_Invalid_Credentials" finished-at="2026-01-28T18:59:38 IST" duration-ms="640" status="PASS">
+        <test-method signature="FT002_Invalid_Credentials()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:05 IST" name="FT002_Invalid_Credentials" finished-at="2026-01-28T19:13:06 IST" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FT002_Invalid_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:38 IST" name="tearDown" finished-at="2026-01-28T18:59:39 IST" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:06 IST" name="tearDown" finished-at="2026-01-28T19:13:06 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:39 IST" name="setup" finished-at="2026-01-28T18:59:42 IST" duration-ms="2675" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:06 IST" name="setup" finished-at="2026-01-28T19:13:09 IST" duration-ms="3023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ST_CSS_XSScripting()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:42 IST" name="ST_CSS_XSScripting" finished-at="2026-01-28T18:59:42 IST" duration-ms="620" status="PASS">
+        <test-method signature="ST_CSS_XSScripting()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:09 IST" name="ST_CSS_XSScripting" finished-at="2026-01-28T19:13:10 IST" duration-ms="714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ST_CSS_XSScripting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:42 IST" name="tearDown" finished-at="2026-01-28T18:59:43 IST" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:10 IST" name="tearDown" finished-at="2026-01-28T19:13:10 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:43 IST" name="setup" finished-at="2026-01-28T18:59:45 IST" duration-ms="2580" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:10 IST" name="setup" finished-at="2026-01-28T19:13:13 IST" duration-ms="2703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ST_HTTPSEnforcement()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:45 IST" name="ST_HTTPSEnforcement" finished-at="2026-01-28T18:59:46 IST" duration-ms="788" status="PASS">
+        <test-method signature="ST_HTTPSEnforcement()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:13 IST" name="ST_HTTPSEnforcement" finished-at="2026-01-28T19:13:13 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ST_HTTPSEnforcement -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:46 IST" name="tearDown" finished-at="2026-01-28T18:59:46 IST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:13 IST" name="tearDown" finished-at="2026-01-28T19:13:13 IST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:46 IST" name="setup" finished-at="2026-01-28T18:59:49 IST" duration-ms="2558" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:13 IST" name="setup" finished-at="2026-01-28T19:13:16 IST" duration-ms="2489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,19 +155,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ST_SQLInjection()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:49 IST" name="ST_SQLInjection" finished-at="2026-01-28T18:59:50 IST" duration-ms="597" status="PASS">
+        <test-method signature="ST_SQLInjection()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:16 IST" name="ST_SQLInjection" finished-at="2026-01-28T19:13:16 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ST_SQLInjection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:50 IST" name="tearDown" finished-at="2026-01-28T18:59:50 IST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:17 IST" name="tearDown" finished-at="2026-01-28T19:13:17 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T18:59:50 IST" name="afterSuite" finished-at="2026-01-28T18:59:51 IST" duration-ms="787" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.automation.qa.LoginTest@2638011]" started-at="2026-01-28T19:13:17 IST" name="afterSuite" finished-at="2026-01-28T19:13:18 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- org.automation.qa.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
