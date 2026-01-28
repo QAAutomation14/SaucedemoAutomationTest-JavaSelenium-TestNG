@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -36,9 +37,20 @@ public class LoginTest {
 
 	@BeforeMethod
 	public void setup(Method method) {
+		
+		ChromeOptions options = new ChromeOptions();
+
+		options.addArguments("--headless=new"); // REQUIRED
+		options.addArguments("--no-sandbox");   // REQUIRED for GitHub runner
+		options.addArguments("--disable-dev-shm-usage"); // REQUIRED
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
+
+		 
+
 
 		extent.createTest(method.getName());
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
 	}

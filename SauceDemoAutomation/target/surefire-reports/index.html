@@ -226,8 +226,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.automation.qa.LoginTest&quot;/&gt;
     &lt;/classes&gt;
@@ -271,42 +271,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ST_HTTPSEnforcement')
+data.setCell(0, 1, 'ST_SQLInjection')
 data.setCell(0, 2, 'org.automation.qa.LoginTest')
-data.setCell(0, 3, 788);
+data.setCell(0, 3, 2757);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'EDT004_SpecialCharacter')
+data.setCell(1, 1, 'FT001_Valid_Credentials')
 data.setCell(1, 2, 'org.automation.qa.LoginTest')
-data.setCell(1, 3, 754);
+data.setCell(1, 3, 1930);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'EDT005_LongCharacter')
+data.setCell(2, 1, 'ST_HTTPSEnforcement')
 data.setCell(2, 2, 'org.automation.qa.LoginTest')
-data.setCell(2, 3, 704);
+data.setCell(2, 3, 1438);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'FT002_Invalid_Credentials')
+data.setCell(3, 1, 'EDT005_LongCharacter')
 data.setCell(3, 2, 'org.automation.qa.LoginTest')
-data.setCell(3, 3, 640);
+data.setCell(3, 3, 1279);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'ST_CSS_XSScripting')
 data.setCell(4, 2, 'org.automation.qa.LoginTest')
-data.setCell(4, 3, 620);
+data.setCell(4, 3, 1277);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'FT001_Valid_Credentials')
+data.setCell(5, 1, 'EDT004_SpecialCharacter')
 data.setCell(5, 2, 'org.automation.qa.LoginTest')
-data.setCell(5, 3, 612);
+data.setCell(5, 3, 1186);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ST_SQLInjection')
+data.setCell(6, 1, 'FT002_Invalid_Credentials')
 data.setCell(6, 2, 'org.automation.qa.LoginTest')
-data.setCell(6, 3, 597);
+data.setCell(6, 3, 1083);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'EDT003_BlankFeilds')
 data.setCell(7, 2, 'org.automation.qa.LoginTest')
-data.setCell(7, 3, 534);
+data.setCell(7, 3, 849);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -339,103 +339,103 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.EDT003_BlankFeilds())</span>
-                <span class="method-start">778 ms</span>
+                <span class="method-start">556 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EDT003_BlankFeilds</span>
-                <span class="method-start">4611 ms</span>
+                <span class="method-start">7541 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5154 ms</span>
+                <span class="method-start">8395 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.EDT004_SpecialCharacter())</span>
-                <span class="method-start">5774 ms</span>
+                <span class="method-start">9358 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EDT004_SpecialCharacter</span>
-                <span class="method-start">8850 ms</span>
+                <span class="method-start">14118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9609 ms</span>
+                <span class="method-start">15305 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.EDT005_LongCharacter())</span>
-                <span class="method-start">10630 ms</span>
+                <span class="method-start">16108 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EDT005_LongCharacter</span>
-                <span class="method-start">13652 ms</span>
+                <span class="method-start">20635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14358 ms</span>
+                <span class="method-start">21915 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.FT001_Valid_Credentials())</span>
-                <span class="method-start">14764 ms</span>
+                <span class="method-start">22948 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FT001_Valid_Credentials</span>
-                <span class="method-start">17248 ms</span>
+                <span class="method-start">26504 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17863 ms</span>
+                <span class="method-start">28435 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.FT002_Invalid_Credentials())</span>
-                <span class="method-start">18327 ms</span>
+                <span class="method-start">29529 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FT002_Invalid_Credentials</span>
-                <span class="method-start">21398 ms</span>
+                <span class="method-start">34043 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22042 ms</span>
+                <span class="method-start">35127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.ST_CSS_XSScripting())</span>
-                <span class="method-start">22501 ms</span>
+                <span class="method-start">35978 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ST_CSS_XSScripting</span>
-                <span class="method-start">25177 ms</span>
+                <span class="method-start">40459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25798 ms</span>
+                <span class="method-start">41737 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.ST_HTTPSEnforcement())</span>
-                <span class="method-start">26208 ms</span>
+                <span class="method-start">42694 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ST_HTTPSEnforcement</span>
-                <span class="method-start">28789 ms</span>
+                <span class="method-start">47084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29579 ms</span>
+                <span class="method-start">48523 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void org.automation.qa.LoginTest.ST_SQLInjection())</span>
-                <span class="method-start">30013 ms</span>
+                <span class="method-start">49853 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ST_SQLInjection</span>
-                <span class="method-start">32571 ms</span>
+                <span class="method-start">53524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33171 ms</span>
+                <span class="method-start">56282 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">33733 ms</span>
+                <span class="method-start">57233 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
