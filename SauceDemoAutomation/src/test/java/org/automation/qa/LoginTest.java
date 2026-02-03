@@ -24,7 +24,7 @@ public class LoginTest {
     @BeforeSuite
     public void suiteSetup() {
 
-        // ✅ Cross-platform report path (Linux + Windows)
+        //  Cross-platform report path (Linux + Windows)
         String reportPath = Paths.get("Report", "Extent.html").toString();
 
         ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
@@ -39,14 +39,14 @@ public class LoginTest {
 
         ChromeOptions options = new ChromeOptions();
 
-        // ✅ CI-safe Chrome flags
+        //  CI-safe Chrome flags
         options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
 
-        // 🔍 Debug (temporary – keep for 1 run)
+        //  Debug (temporary – keep for 1 run)
         System.out.println("ChromeOptions = " + options.asMap());
 
         test = extent.createTest(method.getName());
